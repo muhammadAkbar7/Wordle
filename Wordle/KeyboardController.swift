@@ -35,17 +35,20 @@ class KeyboardController: NSObject,
     // END YOUR CODE HERE
   }
 
-  func collectionView(_ collectionView: UICollectionView,
-                      cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-    let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "KeyboardCell",
-                                                  for: indexPath) as! KeyboardCell
-    cell.configure(with: keyboardRows[indexPath.section][indexPath.row])
-    // Exercise 4: Pass in the `didSelectString` closure to the KeyboardCell's corresponding property
-    // START YOUR CODE HERE
-    // ...
-    // END YOUR CODE HERE
-    return cell
-  }
+    func collectionView(_ collectionView: UICollectionView,
+                        cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+      let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "KeyboardCell",
+                                                    for: indexPath) as! KeyboardCell
+      cell.configure(with: keyboardRows[indexPath.section][indexPath.row])
+      // Exercise 4: Pass in the `didSelectString` closure to the KeyboardCell's corresponding property
+      // START YOUR CODE HERE
+        cell.didSelectString = self.didSelectString
+      // END YOUR CODE HERE
+      return cell
+    }
+    
+    //      let keyboardCell = KeyboardCell(coder: <#NSCoder#>)
+    //      keyboardCell.configure(with: "A")
 
   // MARK: - Private Methods
   func numItems(in row: Int) -> Int {
