@@ -28,11 +28,11 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 <div>
-    <a href="https://www.loom.com/share/5cba1c5d382a4629abd7327a042d658a">
-      <p>Simulator - iPhone 15 Pro - 25 February 2024 - Watch Video</p>
+    <a href="https://www.loom.com/share/f42caf8cc5bd479499b4db9583568afd">
+      <p>Xcode - Wordle — AppDelegate.swift - 26 February 2024 - Watch Video</p>
     </a>
-    <a href="https://www.loom.com/share/5cba1c5d382a4629abd7327a042d658a">
-      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/5cba1c5d382a4629abd7327a042d658a-with-play.gif">
+    <a href="https://www.loom.com/share/f42caf8cc5bd479499b4db9583568afd">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/f42caf8cc5bd479499b4db9583568afd-with-play.gif">
     </a>
   </div>
 
